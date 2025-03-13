@@ -50,7 +50,7 @@
 
 3. **Запуск программы для определения языка**:
    ```bash
-   python3 language_identification.py
+   python3 language_identification_gui.py
 Запустится программа, которая позволит определить язык введенного текста.
 
 ## Источники
