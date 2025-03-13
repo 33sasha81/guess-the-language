@@ -53,3 +53,16 @@
    python3 language_identification.py
 Запустится программа, которая позволит определить язык введенного текста.
 
+## Источники
+
+- **Корпуса текстов**, загруженные с Google Drive по следующим ссылкам:
+  - Английский: [eng_w.txt](https://drive.google.com/uc?id=1MOdBYmKczmadRDLH1sMUYbBWtWhTFp9O)
+  - Русский: [rus_w.txt](https://drive.google.com/uc?id=1H257C5Nf3-IsQ41HeNpYaPhgGXXGnrjU)
+  - Немецкий: [deu_w.txt](https://drive.google.com/uc?id=1BKcdCKrYwy00XklRdf5FVkHYCOtOfgJF)
+  - Испанский: [spa_w.txt](https://drive.google.com/uc?id=19Rcyk1zZOuai9Oh8N5f0szvjAW8lQzeY)
+  - Французский: [fra_w.txt](https://drive.google.com/uc?id=12kMibFwZCxSfiyQczdbX4bYay3tCJvx8)
+
+- **Используемые библиотеки**:
+  - `gdown` — для загрузки файлов с Google Drive.
+  - `pickle` — для сериализации и десериализации моделей.
+  - Стандартные библиотеки Python (`os`, `collections`, `typing`, `math`).
