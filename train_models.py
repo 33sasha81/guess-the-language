@@ -85,11 +85,11 @@ def train_and_save_models(corpus_paths: Dict[str, str], model_save_paths: Dict[s
 
 
 corpus_paths = {
-    'English': 'eng_w.txt',
-    'Russian': 'rus_w.txt',
-    'German': 'deu_w.txt',
-    'Spanish': 'spa_w.txt',
-    'French': 'fra_w.txt'
+    'English': 'data/eng_w.txt',
+    'Russian': 'data/rus_w.txt',
+    'German': 'data/deu_w.txt',
+    'Spanish': 'data/spa_w.txt',
+    'French': 'data/fra_w.txt'
 }
 
 model_save_paths = {
